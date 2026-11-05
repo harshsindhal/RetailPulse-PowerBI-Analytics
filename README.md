@@ -7,7 +7,7 @@
 <h3 align="center">Turning Retail Data into Smarter Business Decisions</h3>
 
 <p align="center">
-  <strong>A Business Intelligence & Retail Analytics Portfolio Project</strong>
+  **A Business Intelligence & Retail Analytics Portfolio Project**
 </p>
 
 <p align="center">
@@ -102,8 +102,6 @@ A Left Anti Join on `product_id` and `date` returned all 9,215 records from `bli
 
 Power Query served as the primary ETL engine throughout the project.
 
-The major transformation activities included:
-
 **1. Data Type Normalization**
 
 Identification and contact-related fields, including `customer_id`, `order_id`, `product_id`, `delivery_partner_id`, `store_id`, `phone`, and `pincode`, were converted to Text to preserve identifier integrity and leading zeros.
@@ -147,16 +145,7 @@ A dedicated DAX DateTable provides centralized time intelligence.
 
 **Calendar Coverage:** 01 January 2023 – 31 December 2026.
 
-The calendar includes:
-
-- Date
-- Year
-- Month Number
-- Month
-- Quarter
-- Year-Month
-- Day
-- Day Name
+The calendar includes Date, Year, Month Number, Month, Quarter, Year-Month, Day, and Day Name.
 
 The DateTable connects to orders, combined inventory, and marketing performance through active relationships. Inactive date relationships are maintained for customer registration and feedback dates.
 
@@ -201,19 +190,7 @@ RetailPulse contains 11 interactive dashboard pages, each designed around a spec
 
 The project incorporates 32 core DAX measures covering multiple analytical categories.
 
-These measures support:
-
-- Sales and revenue calculations.
-- Order performance.
-- Product contribution.
-- Customer analytics.
-- Store performance.
-- Financial analysis.
-- Inventory monitoring.
-- Delivery performance.
-- Marketing metrics.
-- Time intelligence.
-- Executive recommendations.
+These measures support sales and revenue calculations, order performance, product contribution, customer analytics, store performance, financial analysis, inventory monitoring, delivery performance, marketing metrics, time intelligence, and executive recommendations.
 
 The measures are designed to respond dynamically to report filter context and slicer selections.
 
@@ -226,8 +203,6 @@ The report follows a consistent widescreen 16:9 layout with a dark green visual 
 The design focuses on visual consistency, readability, interactive filtering, meaningful KPI presentation, and business-oriented reporting.
 
 ## Project Screenshots
-
-Add your actual dashboard screenshots to the `Screenshots` directory and display them here.
 
 ### Executive Summary
 
@@ -290,70 +265,21 @@ Add your actual dashboard screenshots to the `Screenshots` directory and display
 
 ## Real-World Business Applications
 
-RetailPulse demonstrates how retail organizations can use Business Intelligence to:
+RetailPulse demonstrates how retail organizations can use Business Intelligence to monitor sales and revenue performance, identify high-value customer groups, understand product demand, identify potential stock shortages and overstocking, evaluate delivery performance, compare store operations, analyze seasonal purchasing patterns, and support management decisions through executive reporting.
 
-- Monitor sales and revenue performance.
-- Identify high-value customer groups.
-- Improve customer engagement strategies.
-- Understand product demand and category contribution.
-- Identify potential stock shortages and overstocking.
-- Evaluate delivery performance.
-- Compare store-level operations.
-- Analyze seasonal purchasing patterns.
-- Support management decisions through executive reporting.
+## Live Project & Repository
 
-## Project Structure
+### Live Power BI Dashboard
 
-The recommended repository structure is:
+Explore the interactive RetailPulse dashboard, including its 11 analytical report pages, KPI cards, filters, visualizations, and executive insights.
 
-```text
-RetailPulse-PowerBI-Analytics/
-│
-├── README.md
-│
-├── RetailPulse.pbix
-│
-├── Documentation/
-│   └── RetailPulse_Project_Report.pdf
-│
-├── Screenshots/
-│   ├── retailpulse-banner.png
-│   ├── executive-summary.png
-│   ├── sales-trend.png
-│   ├── product-performance.png
-│   ├── customer-analytics.png
-│   ├── store-performance.png
-│   ├── monthly-seasonal-sales.png
-│   ├── customer-behaviour.png
-│   ├── profit-revenue.png
-│   ├── inventory-analysis.png
-│   ├── delivery-logistics.png
-│   └── executive-intelligence.png
-│
-└── Supporting-Files/
-    ├── DAX_Measures.txt
-    └── Power_Query_Transformations.txt
-```
+**[View Live RetailPulse Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMGE3ZmI3YmUtMGJlOS00ZTdmLWIwN2EtYjdkZDIxYzM5MTljIiwidCI6IjM0YmQ4YmVkLTJhYzEtNDFhZS05ZjA4LTRlMGEzZjExNzA2YyJ9&pageName=3786165053b9e7811dd2)**
 
-## How to Access the Project
+### GitHub Repository
 
-1. Clone or download this repository.
-2. Locate the `RetailPulse.pbix` file.
-3. Open it using Microsoft Power BI Desktop.
-4. If prompted, configure the source-file paths and refresh the data.
-5. Explore the report pages using the available navigation, filters, and slicers.
+Access the project repository containing the Power BI source file, project documentation, and supporting resources.
 
-**Software Requirement:** Microsoft Power BI Desktop.
-
-## Live Project & Demonstration
-
-**Live Power BI Report:** Add your published Power BI URL here.
-
-**GitHub Repository:** Add your repository URL here.
-
-**Project Demonstration Video:** Add your YouTube or Google Drive link here.
-
-**Project Feedback Video:** Add your reflection video link here.
+**[View GitHub Repository – RetailPulse-PowerBI-Analytics](https://github.com/harshsindhal/RetailPulse-PowerBI-Analytics)**
 
 ## Conclusion
 
@@ -379,5 +305,5 @@ Data Analyst | Power BI Developer
 **Organization:** Zidio Internship Project
 
 <p align="center">
-  <strong>RetailPulse – Turning Data into Decisions.</strong>
+  **RetailPulse – Turning Data into Decisions.**
 </p>
