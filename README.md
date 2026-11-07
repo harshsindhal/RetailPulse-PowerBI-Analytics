@@ -7,7 +7,7 @@
 <h3 align="center">Turning Retail Data into Smarter Business Decisions</h3>
 
 <p align="center">
-  **A Business Intelligence & Retail Analytics Portfolio Project**
+  A Business Intelligence & Retail Analytics Portfolio Project
 </p>
 
 <p align="center">
