@@ -305,5 +305,5 @@ Data Analyst | Power BI Developer
 **Organization:** Zidio Internship Project
 
 <p align="center">
-  **RetailPulse – Turning Data into Decisions.**
+  RetailPulse – Turning Data into Decisions.
 </p>
